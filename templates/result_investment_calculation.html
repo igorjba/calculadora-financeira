@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado do Cálculo de Investimentos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Resultado do Cálculo de Investimentos</h1>
+    <p>Tempo necessário para alcançar o montante desejado: <strong>{{ time }} meses</strong></p>
+    <p>Montante alcançado: <strong>R$ {{ "%.2f"|format(final_amount) }}</strong></p>
+
+    <a href="/" class="back-btn">Voltar</a>
+</body>
+
+</html>

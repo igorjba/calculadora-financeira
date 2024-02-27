@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Instance-specific configuration
+instance/
+
+# Logs
+*.log
+
+# SQLite database file
+*.sqlite3
+
+# If you are using a database url file
+database_url.txt
+
+# Pytest
+.cache
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+
+# Folder config file
+*.cfg
+
+# Folders used by popular VS Code extensions
+.history/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+*.sublime-workspace
+
+# python env
+bin/
+include/
+lib/
+pyvenv.cfg
+lib64/
+
+# macOS specific
+.DS_Store
