@@ -52,11 +52,11 @@ A seguir, algumas capturas de tela do aplicativo:
 <details>
 <summary>Página Inicial: </summary>
 
-  ![Página Inicial](assets\calculadora-financeira-python.png)
+  ![Página Inicial](./assets\calculadora-financeira-python.png)
 </details>
 
 <details>
 <summary>Resultado do Cálculo: </summary>
 
-  ![Resultado do Cálculo](assets\calculadora-financeira-python-resultado.png)
+  ![Resultado do Cálculo](./assets\calculadora-financeira-python-resultado.png)
   </details>
