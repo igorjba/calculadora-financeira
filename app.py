@@ -28,5 +28,9 @@ def calculate_time():
     
     return render_template('result_investment_calculation.html', time=months_needed, final_amount=final_amount)
 
+@app.route('/test')
+def test():
+    return "<h1>Teste</h1>"
+
 if __name__ == '__main__':
     app.run(debug=True)
