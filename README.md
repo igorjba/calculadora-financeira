@@ -2,6 +2,8 @@
 
 Este aplicativo é uma calculadora financeira projetada para ajudar os usuários a planejar seus investimentos. Ele calcula o tempo necessário para alcançar um montante desejado com base em aportes iniciais e mensais, além de uma taxa de juros específica.
 
+link temporário: [Calculadora Financeira](https://igorjba.pythonanywhere.com/)
+
 ## Funcionalidades
 
 - **Cálculo de Tempo de Investimento**: Permite ao usuário descobrir quanto tempo levará para alcançar um montante desejado, considerando o aporte inicial, aporte mensal e a taxa de juros.
